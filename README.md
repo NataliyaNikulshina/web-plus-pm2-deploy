@@ -5,7 +5,5 @@
 Ссылки на проект
 
 IP: http://51.250.66.215
-
 Frontend: https://mesto.nepysto.nomoredomainsicu.ru/signin
-
 Backend: https://api.mesto.nepysto.nomoredomainsicu.ru/signin
