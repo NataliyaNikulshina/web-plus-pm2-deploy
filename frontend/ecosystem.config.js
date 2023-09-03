@@ -6,7 +6,7 @@ const {
 
 module.exports = {
   apps: [{
-    name: 'frontend',
+    name: 'frontend'
   }],
 
   deploy: {
