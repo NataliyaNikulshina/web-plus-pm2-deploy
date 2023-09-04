@@ -14,7 +14,12 @@ const app = express();
 mongoose.connect(DB_ADDRESS);
 
 // Только для локальных тестов. Не используйте это в продакшене
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http: //https://mesto.nepysto.nomoredomainsicu.ru/signup',
+    'https: //https://mesto.nepysto.nomoredomainsicu.ru/signup',
+  ],
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
