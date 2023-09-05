@@ -139,7 +139,7 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://127.0.0.1:3000');
+  const api = new Api('https://api.mesto.nepysto.nomoredomainsicu.ru/');
   
   export default api;
   
