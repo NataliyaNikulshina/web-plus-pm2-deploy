@@ -19,6 +19,7 @@ app.use(cors({
     'https://mesto.nepysto.nomoredomainsicu.ru',
     'https://api.mesto.nepysto.nomoredomainsicu.ru',
   ],
+  optionsSuccessStatus: 200,
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
